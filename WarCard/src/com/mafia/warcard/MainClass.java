@@ -59,8 +59,6 @@ public class MainClass implements ApplicationListener {
         batch.dispose();
     }
 
-    Texture tex;
-
     @Override
     public void render() {
         Gdx.gl.glClearColor(1, 1, 1, 1);
