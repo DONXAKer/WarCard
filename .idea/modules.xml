@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WarCard/WarCard.iml" filepath="$PROJECT_DIR$/WarCard/WarCard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WarCard-android/WarCard-android.iml" filepath="$PROJECT_DIR$/WarCard-android/WarCard-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WarCard-desktop/WarCard-desktop.iml" filepath="$PROJECT_DIR$/WarCard-desktop/WarCard-desktop.iml" />
+    </modules>
+  </component>
+</project>
+

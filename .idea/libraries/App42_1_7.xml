@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="App42_1.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../PublicJavaClass/App42_JAVA_SDK_1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../PublicJavaClass/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../PublicJavaClass/commons-logging-api-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../PublicJavaClass/httpclient-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../PublicJavaClass/httpcore-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../PublicJavaClass/json-org.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
