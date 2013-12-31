@@ -10,61 +10,8 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dd80342-4a96-4e4f-a83c-db8cd18dc8b2" name="Default" comment="Initial commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/libs/bodyeditor-loader-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/libs/bodyeditor-loader.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/assets/img/exit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/libs/gdx-backend-android-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/libs/gdx-backend-android.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-desktop/libs/gdx-backend-lwjgl-natives.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-desktop/libs/gdx-backend-lwjgl-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-desktop/libs/gdx-backend-lwjgl.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-desktop/libs/gdx-natives.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/libs/gdx-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/libs/gdx.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/res/drawable-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/res/drawable-ldpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/res/drawable-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/assets/img/libgdx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/libs/armeabi/libgdx.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/libs/armeabi-v7a/libgdx.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/libs/x86/libgdx.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/libs/tween-engine-api-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/libs/tween-engine-api.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Android.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/App42_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/src/BaseClass.gwt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/gen/com/mafia/warcard/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Const.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/DON.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-desktop/src/com/mafia/warcard/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/src/com/mafia/warcard/MainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/gen/com/mafia/warcard/Manifest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Menu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Paths.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/gen/com/mafia/warcard/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/BaseClass/Screen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/StaticMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/WarCard-android.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-desktop/WarCard-desktop.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/WarCard.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/res/layout/main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/proguard.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard-android/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="3dd80342-4a96-4e4f-a83c-db8cd18dc8b2" name="Default" comment="Remove tex.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WarCard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,7 +26,7 @@
     <option name="PARALLEL_COMPILATION" value="true" />
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\Users\DON\Dropbox\Java\WarCard" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -166,7 +113,7 @@
       <file leaf-file-name="MainClass.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="10" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.4631579" vertical-offset="776" max-vertical-offset="1377">
+            <state line="76" column="0" selection-start="2297" selection-end="2297" vertical-scroll-proportion="0.8210526" vertical-offset="776" max-vertical-offset="1343">
               <folding />
             </state>
           </provider>
@@ -303,6 +250,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="warcard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -334,6 +323,7 @@
     <property name="dir.diff.last.used.directory" value="$PROJECT_DIR$/WarCard-android/assets" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -610,12 +600,17 @@
       <workItem from="1387903598935" duration="4373000" />
       <workItem from="1387992785532" duration="228000" />
       <workItem from="1387994103955" duration="68000" />
-      <workItem from="1388489154472" duration="2364000" />
+      <workItem from="1388489154472" duration="2750000" />
     </task>
+    <task id="LOCAL-00001" summary="Remove tex.">
+      <created>1388492002496</created>
+      <updated>1388492002496</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56765000" />
+    <option name="totallyTimeSpent" value="57151000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -639,10 +634,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -653,7 +648,7 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24093656" sideWeight="0.50119334" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -662,7 +657,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22432025" sideWeight="0.4988067" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22432025" sideWeight="0.4988067" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -684,7 +679,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Remove tex." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove tex." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -996,7 +992,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="10" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.4631579" vertical-offset="776" max-vertical-offset="1377">
+        <state line="76" column="0" selection-start="2297" selection-end="2297" vertical-scroll-proportion="0.8210526" vertical-offset="776" max-vertical-offset="1343">
           <folding />
         </state>
       </provider>
