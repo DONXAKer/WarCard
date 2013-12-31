@@ -85,21 +85,6 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java" line="47" class="com.mafia.warcard.MainClass" package="com.mafia.warcard">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -113,7 +98,7 @@
       <file leaf-file-name="MainClass.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="2297" selection-end="2297" vertical-scroll-proportion="0.8210526" vertical-offset="776" max-vertical-offset="1343">
+            <state line="53" column="0" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.5" vertical-offset="507" max-vertical-offset="1343">
               <folding />
             </state>
           </provider>
@@ -600,17 +585,21 @@
       <workItem from="1387903598935" duration="4373000" />
       <workItem from="1387992785532" duration="228000" />
       <workItem from="1387994103955" duration="68000" />
-      <workItem from="1388489154472" duration="2750000" />
+      <workItem from="1388489154472" duration="4392000" />
     </task>
     <task id="LOCAL-00001" summary="Remove tex.">
       <created>1388492002496</created>
       <updated>1388492002496</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Remove tex.">
+      <created>1388492083655</created>
+      <updated>1388492083655</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57151000" />
+    <option name="totallyTimeSpent" value="58793000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -634,10 +623,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -992,7 +981,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="2297" selection-end="2297" vertical-scroll-proportion="0.8210526" vertical-offset="776" max-vertical-offset="1343">
+        <state line="53" column="0" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.5" vertical-offset="507" max-vertical-offset="1343">
           <folding />
         </state>
       </provider>
