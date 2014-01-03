@@ -8,8 +8,8 @@ public class Main {
         LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
         cfg.title = "WarCard";
         cfg.useGL20 = true;
-        cfg.width = 480;
-        cfg.height = 320;
+        cfg.width = Const.ScreenWidth;
+        cfg.height = Const.ScreenHeight;
 
         new LwjglApplication(new MainClass(), cfg);
     }

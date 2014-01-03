@@ -5,24 +5,22 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.mafia.warcard.BaseClass.Screen;
+import com.mafia.warcard.Screens.Ads;
 import com.mafia.warcard.Screens.Menu;
 
 import java.util.HashMap;
 
-import static com.mafia.warcard.Const.FillCollectionTexture;
+import static com.mafia.warcard.Const.*;
+import static com.mafia.warcard.StaticMethods.GetPoint2Texture;
 
 public class MainClass implements ApplicationListener {
+    HashMap<Integer, Screen> screens = new HashMap<Integer, Screen>();
     private OrthographicCamera camera;
     private SpriteBatch batch;
-    private Texture texture;
-    private Sprite sprite;
-
-    private int i_CurrentScreen = 1;
-
-    HashMap<Integer, Menu> screens = new HashMap<Integer, Menu>();
+    public static int i_CurrentScreen = Screen.ADSCREEN;
+    public static boolean i_FirstTimeLoad = true;
 
     @Override
     public void create() {
@@ -30,18 +28,15 @@ public class MainClass implements ApplicationListener {
         float w = Gdx.graphics.getWidth();
         float h = Gdx.graphics.getHeight();
 
+        SetScreenSize();
+
         // orthographic camera - main view
         camera = new OrthographicCamera(1, h / w);
         batch = new SpriteBatch();
 
-        // fill collection with all img
-        FillCollectionTexture();
-
-        // add screens to hashmap
-        screens.put(Screen.MAINMENU, new Menu(camera));
-
-
-        //texture = new Texture(Gdx.files.internal("img\\libgdx.png"));
+        // для начала загрузим все по заставки, а затем будем грузить все остальное
+        Const.CollectionTexture.put(Const.ImageName.AdsScreenBG, new Texture(GetPoint2Texture("AdsScreenBG.png")));
+        screens.put(Screen.ADSCREEN, new Ads(camera));
 
 
         //sprite = new Sprite(texture);
@@ -57,6 +52,7 @@ public class MainClass implements ApplicationListener {
     @Override
     public void dispose() {
         batch.dispose();
+        DisposeCollectionTexture();
     }
 
     @Override
@@ -69,6 +65,14 @@ public class MainClass implements ApplicationListener {
         //sprite.draw(batch);
         screens.get(i_CurrentScreen).show(batch);
         batch.end();
+
+        // проверяем, что это первый запуск игры и загружаем текстуры
+        if (i_FirstTimeLoad) {
+            // заполняем коллекцию с текстурами
+            FillCollectionTexture();
+            LoadFirstTime();
+            i_FirstTimeLoad = false;
+        }
     }
 
     @Override
@@ -81,5 +85,14 @@ public class MainClass implements ApplicationListener {
 
     @Override
     public void resume() {
+    }
+
+    // процедура загрузки данных при запуске игры
+    private void LoadFirstTime() {
+        // add screens to hashmap
+        screens.put(Screen.MAINMENU, new Menu());
+
+        // после загрузки текстур говорим рендеру, что надо переключиться на экран с меню.
+        //i_CurrentScreen = Screen.MAINMENU;
     }
 }
