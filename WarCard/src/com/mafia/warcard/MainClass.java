@@ -8,7 +8,9 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.mafia.warcard.BaseClass.Screen;
 import com.mafia.warcard.Screens.Ads;
+import com.mafia.warcard.Screens.Game;
 import com.mafia.warcard.Screens.Menu;
+import com.shephertz.app42.paas.sdk.java.ServiceAPI;
 
 import java.util.HashMap;
 
@@ -45,7 +47,7 @@ public class MainClass implements ApplicationListener {
         //sprite.setPosition(-sprite.getWidth() / 2, -sprite.getHeight() / 2);
 
         // analyze multuplayer system
-        //ServiceAPI serviceAPI = new ServiceAPI("f1ceac97fa399c44d6c44ee915dc15b3b593a5f8df94aa5b07283b5ab99041ca", "ac2676c71819b5c3b1532db6f2ae568dd365ebb20c2440944dd23334c4e3f0b0");
+        serviceAPI = new ServiceAPI("f1ceac97fa399c44d6c44ee915dc15b3b593a5f8df94aa5b07283b5ab99041ca", "ac2676c71819b5c3b1532db6f2ae568dd365ebb20c2440944dd23334c4e3f0b0");
 
     }
 
@@ -89,8 +91,10 @@ public class MainClass implements ApplicationListener {
 
     // процедура загрузки данных при запуске игры
     private void LoadFirstTime() {
-        // add screens to hashmap
+        // добавляем все экраны в HashMap, для быстрого выбора
         screens.put(Screen.MAINMENU, new Menu());
+        screens.put(Screen.GAME, new Game());
+
 
         // после загрузки текстур говорим рендеру, что надо переключиться на экран с меню.
         //i_CurrentScreen = Screen.MAINMENU;

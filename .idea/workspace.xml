@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYSIS_IN_BACKGROUND" value="true" />
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState />
+    </option>
+  </component>
   <component name="AndroidLayouts">
     <shared>
       <config />
@@ -10,7 +18,14 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dd80342-4a96-4e4f-a83c-db8cd18dc8b2" name="Default" comment="Remove tex.">
+    <list default="true" id="3dd80342-4a96-4e4f-a83c-db8cd18dc8b2" name="Default" comment="Добавление базового класса для карты">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Game.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/BaseClass/Map.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Ads.java" afterPath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Ads.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Const.java" afterPath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Const.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java" afterPath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Menu.java" afterPath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Menu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/BaseClass/Screen.java" afterPath="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/BaseClass/Screen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WarCard.iws" />
@@ -85,6 +100,36 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Const.java" line="45" class="com.mafia.warcard.Const" package="com.mafia.warcard">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java" line="67" class="com.mafia.warcard.MainClass" package="com.mafia.warcard">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -95,10 +140,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainClass.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainClass.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.5" vertical-offset="507" max-vertical-offset="1343">
+            <state line="92" column="17" selection-start="2934" selection-end="2934" vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="1836">
               <folding />
             </state>
           </provider>
@@ -107,16 +152,34 @@
       <file leaf-file-name="Menu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="612">
+            <state line="29" column="19" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1751">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Paths.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Paths.java">
+      <file leaf-file-name="Ads.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Ads.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
+            <state line="14" column="40" selection-start="505" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="816">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="28" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Map.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/BaseClass/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.14190318" vertical-offset="0" max-vertical-offset="599">
               <folding />
             </state>
           </provider>
@@ -125,7 +188,7 @@
       <file leaf-file-name="Screen.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/BaseClass/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="10" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="646">
+            <state line="25" column="10" selection-start="697" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1496">
               <folding />
             </state>
           </provider>
@@ -134,7 +197,7 @@
       <file leaf-file-name="Const.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Const.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="66" selection-start="562" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="544">
+            <state line="20" column="23" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
@@ -165,17 +228,20 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Unit.java" />
-        <option value="$PROJECT_DIR$/WarCard-desktop/src/com/mafia/warcard/Main.java" />
-        <option value="$PROJECT_DIR$/WarCard-android/src/com/mafia/warcard/MainActivity.java" />
-        <option value="$PROJECT_DIR$/WarCard-android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/BaseClass.java" />
         <option value="$PROJECT_DIR$/WarCard-desktop/WarCard-desktop.iml" />
         <option value="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Paths.java" />
         <option value="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/StaticMethods.java" />
+        <option value="$PROJECT_DIR$/WarCard-desktop/src/com/mafia/warcard/Main.java" />
+        <option value="$PROJECT_DIR$/WarCard-android/src/com/mafia/warcard/MainActivity.java" />
+        <option value="$PROJECT_DIR$/WarCard-android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Const.java" />
+        <option value="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java" />
+        <option value="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Ads.java" />
         <option value="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Menu.java" />
         <option value="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/BaseClass/Screen.java" />
-        <option value="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java" />
+        <option value="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Game.java" />
+        <option value="$PROJECT_DIR$/WarCard/src/com/mafia/warcard/BaseClass/Map.java" />
       </list>
     </option>
   </component>
@@ -208,7 +274,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -227,6 +293,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,9 +302,110 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard-desktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard-desktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="warcard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="warcard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WarCard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="warcard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseClass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -248,7 +416,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -267,8 +435,12 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="SearchEverywhereHistory" value="8?" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DON\Dropbox\Java\WarCard\WarCard\Documentation" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DON\Dropbox\Java\WarCard\WarCard\assets\img" />
       <recent name="C:\Users\DON\Dropbox\Java\WarCard" />
@@ -543,7 +715,18 @@
       <workItem from="1387903598935" duration="4373000" />
       <workItem from="1387992785532" duration="228000" />
       <workItem from="1387994103955" duration="68000" />
-      <workItem from="1388489154472" duration="4551000" />
+      <workItem from="1388489154472" duration="4851000" />
+      <workItem from="1388494476356" duration="203000" />
+      <workItem from="1388509857065" duration="575000" />
+      <workItem from="1388565654882" duration="13841000" />
+      <workItem from="1388756550420" duration="8818000" />
+      <workItem from="1388914266566" duration="2471000" />
+      <workItem from="1388939320757" duration="581000" />
+      <workItem from="1389183730777" duration="2217000" />
+      <workItem from="1389203264040" duration="389000" />
+      <workItem from="1389428327354" duration="1517000" />
+      <workItem from="1389634970943" duration="2409000" />
+      <workItem from="1389721248239" duration="902000" />
     </task>
     <task id="LOCAL-00001" summary="Remove tex.">
       <created>1388492002496</created>
@@ -557,11 +740,27 @@
       <created>1388493954044</created>
       <updated>1388493954044</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Remove tex.">
+      <created>1388494122746</created>
+      <updated>1388494122746</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Добавление описания">
+      <created>1388581091528</created>
+      <updated>1388581091528</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add Ads screen and remake Menuscreen. Now its work">
+      <created>1388781963390</created>
+      <updated>1388781963390</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add image files to vc">
+      <created>1388782177231</created>
+      <updated>1388782177231</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58952000" />
+    <option name="totallyTimeSpent" value="93175000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -585,10 +784,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -601,19 +800,20 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24093656" sideWeight="0.50119334" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22432025" sideWeight="0.4988067" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20921451" sideWeight="0.4988067" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -631,7 +831,11 @@
     </option>
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Remove tex." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove tex." />
+    <MESSAGE value="Добавление описания" />
+    <MESSAGE value="Add Ads screen and remake Menuscreen. Now its work" />
+    <MESSAGE value="Add image files to vc" />
+    <MESSAGE value="Добавление базового класса для карты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление базового класса для карты" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -643,91 +847,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/BaseClass/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="37" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/BaseClass/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/WarCard/libs/gdx-sources.jar!/com/badlogic/gdx/graphics/Texture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="11" selection-start="4144" selection-end="4144" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="5304" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="33" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard-android/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="70" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="493">
-          <folding>
-            <element signature="e#496#514#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="41" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard-desktop/src/com/mafia/warcard/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="374" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard-android/src/com/mafia/warcard/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="374" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="33" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="41" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard-desktop/src/com/mafia/warcard/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="374" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WarCard-android/src/com/mafia/warcard/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="20" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="357" />
@@ -828,25 +947,11 @@
         <state line="182" column="0" selection-start="6045" selection-end="6045" vertical-scroll-proportion="0.0" vertical-offset="2492" max-vertical-offset="9945" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard-android/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="465" selection-end="465" vertical-scroll-proportion="0.48710603" vertical-offset="51" max-vertical-offset="493">
-          <folding>
-            <element signature="e#496#514#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1338" column="23" selection-start="49983" selection-end="49983" vertical-scroll-proportion="0.0" vertical-offset="21634" max-vertical-offset="36975">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard-android/src/com/mafia/warcard/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="285" selection-end="291" vertical-scroll-proportion="0.302799" vertical-offset="0" max-vertical-offset="393" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/WarCard/libs/gdx-sources.jar!/com/badlogic/gdx/Files.java">
@@ -879,11 +984,6 @@
         <state line="136" column="0" selection-start="5543" selection-end="5543" vertical-scroll-proportion="0.0" vertical-offset="1841" max-vertical-offset="5967" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/WarCard-desktop/libs/gdx-backend-lwjgl-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="207" column="0" selection-start="7021" selection-end="7021" vertical-scroll-proportion="0.0" vertical-offset="2842" max-vertical-offset="6035" />
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/WarCard/libs/gdx-sources.jar!/com/badlogic/gdx/graphics/g2d/Sprite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="185" column="16" selection-start="7283" selection-end="7283" vertical-scroll-proportion="0.20356233" vertical-offset="2725" max-vertical-offset="10098" />
@@ -894,56 +994,152 @@
         <state line="6" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-0.519084" vertical-offset="306" max-vertical-offset="1003" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard-desktop/src/com/mafia/warcard/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="338" selection-end="338" vertical-scroll-proportion="0.34605598" vertical-offset="0" max-vertical-offset="393">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/StaticMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="256" selection-end="317" vertical-scroll-proportion="0.5164557" vertical-offset="0" max-vertical-offset="395">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="66" selection-start="562" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/WarCard/libs/gdx-sources.jar!/com/badlogic/gdx/graphics/g2d/SpriteBatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1118" column="5" selection-start="34922" selection-end="34922" vertical-scroll-proportion="0.5063613" vertical-offset="18144" max-vertical-offset="19992" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Menu.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="612">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="36" selection-end="36" vertical-scroll-proportion="0.13783784" vertical-offset="0" max-vertical-offset="370" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarCard/Documentation/Описание.gdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="382" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="413" column="17" selection-start="15381" selection-end="15391" vertical-scroll-proportion="0.8524173" vertical-offset="6295" max-vertical-offset="19414" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarCard-android/src/com/mafia/warcard/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WarCard-desktop/libs/gdx-backend-lwjgl-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="0" selection-start="4678" selection-end="4678" vertical-scroll-proportion="0.0" vertical-offset="1659" max-vertical-offset="6035" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WarCard/libs/gdx-sources.jar!/com/badlogic/gdx/Gdx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="13" selection-start="1728" selection-end="1728" vertical-scroll-proportion="0.33333334" vertical-offset="141" max-vertical-offset="595" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WarCard/libs/gdx-sources.jar!/com/badlogic/gdx/scenes/scene2d/ui/Label.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="2874" selection-end="2874" vertical-scroll-proportion="0.33333334" vertical-offset="651" max-vertical-offset="5015" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WarCard/libs/gdx-sources.jar!/com/badlogic/gdx/scenes/scene2d/ui/TextButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.33333334" vertical-offset="311" max-vertical-offset="1887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarCard-android/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="303" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarCard-android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="69" selection-start="287" selection-end="287" vertical-scroll-proportion="0.2922636" vertical-offset="0" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarCard-android/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/FindGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="21" selection-start="57" selection-end="57" vertical-scroll-proportion="0.05862069" vertical-offset="0" max-vertical-offset="580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarCard-desktop/src/com/mafia/warcard/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="39" selection-start="439" selection-end="439" vertical-scroll-proportion="0.29310346" vertical-offset="0" max-vertical-offset="580">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Paths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+        <state line="2" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.056572378" vertical-offset="0" max-vertical-offset="601">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/BaseClass/Screen.java">
+    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/StaticMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="10" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="646">
+        <state line="5" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.113144755" vertical-offset="0" max-vertical-offset="601">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="23" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="466" max-vertical-offset="1054">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.5" vertical-offset="507" max-vertical-offset="1343">
+        <state line="92" column="17" selection-start="2934" selection-end="2934" vertical-scroll-proportion="0.0" vertical-offset="891" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="19" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Ads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="40" selection-start="505" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/BaseClass/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="10" selection-start="697" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/Screens/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarCard/src/com/mafia/warcard/BaseClass/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.14190318" vertical-offset="0" max-vertical-offset="599">
           <folding />
         </state>
       </provider>

@@ -8,6 +8,7 @@ import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
@@ -22,12 +23,14 @@ public class Menu extends Screen {
     TextButton btnPlay;
     TextButton btnSettings;
     TextButton btnExit;
+    Label lblLogin;
 
     TextButton.TextButtonStyle style = new TextButton.TextButtonStyle();
 
     public Menu() {
         stage = new Stage();
-        Gdx.input.setInputProcessor(stage);
+        Gdx.input.setInputProcessor(this);
+
         style.up = new TextureRegionDrawable(new TextureRegion(CollectionTexture.get(Const.ImageName.Skin)));
         style.font = new BitmapFont();
 
@@ -36,17 +39,16 @@ public class Menu extends Screen {
         btnPlay = new TextButton("Новая Game", style);
         btnSettings = new TextButton("Настройки", style);
         btnExit = new TextButton("Выход", style);
+        //btnFacebook = new TextButton("Facebook", style);
 
 
         btnPlay.addListener(new InputListener() {
-
             @Override
             public boolean touchDown(InputEvent event, float x, float y,
                                      int pointer, int button) {
                 MainClass.i_CurrentScreen = Screen.ADSCREEN;
                 return true;
             }
-
         });
 
         btnExit.addListener(new InputListener() {
@@ -57,6 +59,16 @@ public class Menu extends Screen {
             }
         });
 
+        /*btnFacebook.addListener(new InputListener(){
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+               SocialService facebook =  serviceAPI.buildSocialService();
+
+                lblLogin.setText(facebook.getFacebookProfile(facebook.getFbAccessToken()).getUserName());
+                return true;
+            }
+        });*/
+
         table.setFillParent(true);
 //                table.debug();
         table.add(btnPlay).width(150).height(50);
@@ -64,6 +76,8 @@ public class Menu extends Screen {
         table.add(btnSettings).width(150).height(50).padTop(10);
         table.row();
         table.add(btnExit).width(150).height(50).padTop(10);
+        /*table.row();
+        table.add(btnFacebook).width(150).height(50).padTop(10);*/
 
         Image splashImage = new Image(Const.CollectionTexture.get(Const.ImageName.MenuScreenBG));
         stage.addActor(splashImage);

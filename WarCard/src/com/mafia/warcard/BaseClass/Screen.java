@@ -16,6 +16,7 @@ public class Screen implements InputProcessor {
     public static Integer ADSCREEN = 0;
     public static Integer MAINMENU = 1;
     public static Integer FINDGAME = 2;
+    public static Integer GAME = 3;
     private Texture BG;
     private Sprite spriteBG;
 

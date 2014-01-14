@@ -15,7 +15,7 @@ public class Ads extends Screen {
     public Ads(OrthographicCamera camera) {
 
         stage = new Stage();
-        Gdx.input.setInputProcessor(stage);
+        Gdx.input.setInputProcessor(this);
 
         // загружаем картинку с логотипом
         Image splashImage = new Image(Const.CollectionTexture.get(Const.ImageName.AdsScreenBG));

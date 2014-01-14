@@ -2,6 +2,7 @@ package com.mafia.warcard;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
+import com.shephertz.app42.paas.sdk.java.ServiceAPI;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,6 +14,8 @@ public class Const {
     //Размеры экрана
     public static int ScreenWidth = 800;
     public static int ScreenHeight = 480;
+
+    public static ServiceAPI serviceAPI;
 
     // метод загрузки текстур в GPU
     public static void FillCollectionTexture() {
