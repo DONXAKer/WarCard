@@ -22,20 +22,11 @@ Rest API для связи с игровым сервером
         
 + Response 204 (application/json)
 
-### Create a Note [POST]
-+ Request (application/json)
-
-        { "title": "Buy cheese and bread for breakfast." }
-
-+ Response 201 (application/json)
-
-        { "id": 3, "title": "Buy cheese and bread for breakfast." }
-
-## Game [/game/{id}]
-A single Note object with all its details
+## Game By ID [/games/{id}]
+Получение информации об игре по идентификатору
 
 + Parameters
-    + id (required, number, `1`) ... Numeric `id` of the Note to perform action with. Has example value.
+    + id (required, number, `1`) ... ID - Идентификатор игры
 
 ### Retrieve a Note [GET]
 + Response 200 (application/json)
